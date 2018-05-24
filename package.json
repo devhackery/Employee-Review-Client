@@ -1,0 +1,47 @@
+{
+  "name": "employee_review",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.0",
+    "react-scripts": "^1.0.17",
+    "eslint": "^4.19.1",
+    "babel-eslint": "^7.2.3",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/react-fontawesome": "0.0.19",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "next",
+    "react-router-scroll-4": "^1.0.0-beta.1",
+    "reactstrap": "^6.0.1",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-form": "^7.3.0",
+    "redux-promise-middleware": "^5.1.1",
+    "redux-thunk": "^2.2.0",
+    "sane-email-validation": "^1.1.0",
+    "sanitize.css": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "precommit": "lint-staged"
+  },
+  "homepage": "",
+  "lint-staged": {
+    "*.{js,json,css,md}": ["prettier --write", "git add"]
+  }
+}

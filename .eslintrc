@@ -1,0 +1,7 @@
+{
+    "extends": ["react-app" ,"eslint:all", "plugin:react/all"] ,
+    "plugins": ["react","prettier"],
+    "rules": {
+      "prettier/prettier": "error"
+    }
+  }
