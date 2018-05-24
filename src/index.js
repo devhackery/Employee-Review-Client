@@ -10,9 +10,6 @@ import 'sanitize.css/sanitize.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import './index.css';
  
-import './css/easy-responsive-tabs.css';
-import './css/super-staff.css';
-// import './css/agency.css';
 
 
 const target = document.querySelector('#root');
